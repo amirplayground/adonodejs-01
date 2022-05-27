@@ -41,7 +41,7 @@ jobs:
       uses: EasyDesk/action-dotnet-build@v1.0.0
       with:
       # Additional build arguments to pass to 'dotnet build'.
-      build-args: '--configuration ${{secrets.BUILDCONFIGURATION}}'
+      #build-args: '--configuration ${{secrets.BUILDCONFIGURATION}}'
       # The build configuration to use (defaults to 'Release').
       build-configuration: "${{secrets.BUILDCONFIGURATION}}"
       # The path to the project or solution to build (defaults to the current directory).
